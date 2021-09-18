@@ -1,8 +1,8 @@
 # Congigure the AWS provider
 provider "aws" {
     region     = "us-east-1"
-    access_key = "AKIAXMBJILC3EFXOK53I"
-    secret_key = "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"
+    access_key = ""
+    secret_key = ""
 }
 # Create S3 BUCKET
 resource "aws_s3_bucket" "terraform-aws-team3" {
